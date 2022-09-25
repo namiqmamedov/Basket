@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    
+    background-color: #F9F9F9;
+}
+
+header {
+    background-color: black !important;
+    position: sticky;
+    top: 0;
+    z-index: 11111111;
+    left: 0;
+    width: 100%;
+}
+
+
+header i {
+    color: white;
+    font-size: 20px;
+}
+#count{
+    position: absolute;
+    font-size: 15px;
+    top: 6px;
+}
+header i span {
+    position: relative;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.shop.container {
+    padding: 80px 0;
+}
+
+.shop {
+    margin-top: 20px;
+}
+
+.shop-content .product-title {
+    margin-top: 10px;
+}
+
+.product-box button {
+    margin-top: 15px;
+}
+
+.shop-content {
+    display: grid;
+
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(245px, auto));
+    gap: 3.5rem;
+}
+
+.shop-content img {
+    width: 100%;
+}
+
+.product-box:hover {
+    padding: 10px;
+    border: 1px solid black;
+    transform: 0.4s;
+
+}
+
+.product-box1:hover {
+    padding: 10px;
+    border: 1px solid black;
+    transform: 0.4s;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.price {
+    font-weight: 600;
+}
+
+#basket-list img{
+   
+    width: 23%;
+    padding: 13px 14px;
+    flex-direction: row;
+}
+
+
+
+.basket-box{    
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    width: 58%;
+    transition: opacity 0.3s ease 0s;
+    margin-top: 7.5rem !important;
+    height: 210px;
+    
+}
+.prod-name{
+    margin-bottom: 4.5rem !important;
+    margin-left: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+    line-height: 20px;
+}
+
+
+.prod-count{
+    width: 4%;
+    height: 38px;
+    background-color: var(--zth-select-field-background-color);
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    overflow: hidden;
+    font-size: 14px;
+    border: 1px solid grey;
+    color: var(--zth-select-field-font-color);
+    position: absolute;
+    left: 41%;
+}
+
+.prod-price{
+    position: absolute;
+    right: 51.5%;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.standart{
+    margin-top: 5rem !important;
+    position: relative;
+    right: 15.3%;
+    font-weight: bold;
+}
+
+.cart-remove{
+    position: absolute;
+    left: 52%;
+}
+
+.visa{
+    font-size: 25px;
+}
+.mastercard{
+    font-size: 25px;
+}
+.paypal{
+    font-size: 25px;
+}
+.indexes{
+    text-align: center;
+}
+
+
+.order{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+.ammount{
+    margin-left: 1rem;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.cart-table{ 
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 1px solid black;
+}
+.wrapper-no-padding{
+   width: 20%;
+   height: 150px;
+   position: absolute;
+   left: 63%;
+   top: 41%;
+   border: 16px;
+   background-color: white;
+   display: flex;
+    
+}
+
+
+.slab-font{
+    padding: 11px 19px;
+    font-size: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    left: 64%;
+    top: 48%;
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    background-color: #ea7817;
+    background-image: -moz-linear-gradient(top,#f58220,#d8690a);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f58220),to(#d8690a));
+    background-image: -webkit-linear-gradient(top,#f58220,#d8690a);
+    background-image: -o-linear-gradient(top,#f58220,#d8690a);
+    background-image: linear-gradient(to bottom,#f58220,#d8690a);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff58220',endColorstr='#ffd8690a',GradientType=0);
+    border-color: #d8690a #d8690a #8f4506;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    *background-color: #d8690a;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+}
+
