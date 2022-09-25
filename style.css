@@ -64,7 +64,6 @@ header i span {
 
 .shop-content {
     display: grid;
-
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(245px, auto));
     gap: 3.5rem;
@@ -98,8 +97,10 @@ header i span {
     font-weight: 600;
 }
 
-#basket-list img{
-   
+#Cart{
+    padding: 150px;
+}
+#basket-list img{ 
     width: 23%;
     padding: 13px 14px;
     flex-direction: row;
@@ -113,7 +114,7 @@ header i span {
     border-radius: 4px;
     width: 58%;
     transition: opacity 0.3s ease 0s;
-    margin-top: 7.5rem !important;
+    margin-top: 2.5rem !important;
     height: 210px;
     
 }
@@ -153,8 +154,8 @@ header i span {
 
 .standart{
     margin-top: 5rem !important;
-    position: relative;
-    right: 15.3%;
+    position: absolute;
+    right: 63%;
     font-weight: bold;
 }
 
@@ -202,7 +203,7 @@ header i span {
    height: 150px;
    position: absolute;
    left: 63%;
-   top: 41%;
+   top: 40%;
    border: 16px;
    background-color: white;
    display: flex;
@@ -216,8 +217,8 @@ header i span {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    left: 64%;
-    top: 48%;
+    left: 65%;
+    top: 51%;
     position: absolute;
     color: #fff;
     text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);

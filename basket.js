@@ -88,6 +88,7 @@
          var price = parseFloat(priceElement.innerText.replace("$", ""));
          var quantity = quantityElement.value;
          total = total + price * quantity;
-         document.getElementsByClassName("total-price")[0].innerHTML = "ORDER TOTAL: $" + total;
+
+         document.getElementsByClassName("ammount")[0].innerHTML = "ORDER TOTAL: $" + total;
      }
  }
