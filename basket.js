@@ -18,7 +18,6 @@
                 `
      })
      document.getElementById('basket-list').innerHTML = item
-     CountBasket();
  }
 
  GetItemsFromBasket();
@@ -26,15 +25,10 @@
 
 
  function CountBasket() {
-     let basket = JSON.parse(localStorage.getItem('basket'));
-     // if(basket.length === 0)
-     // {
-     //     document.getElementById('count').style.display = 'none'
-     // }
-     // else{
-     //     document.getElementById('count').style.display = 'block'
-     // }
-     document.getElementById('count')
+    let basket = JSON.parse(localStorage.getItem('basket'));
+    
+    
+    document.getElementById('count').innerHTML = basket.length
  }
 
  CountBasket();
@@ -89,6 +83,6 @@
          var quantity = quantityElement.value;
          total = total + price * quantity;
 
-         document.getElementsByClassName("ammount")[0].innerHTML = "ORDER TOTAL: $" + total;
+         document.getElementsByClassName("tot")[0].innerHTML = "$" + total;
      }
  }
